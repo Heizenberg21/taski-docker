@@ -87,4 +87,4 @@ jobs:
           # Для каждого пересобранного образа 
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
-          tags: Heizenberg21-hub/taski_backend:latest 
+          tags: docker.io/Heizenberg21-hub/taski_backend:latest 
