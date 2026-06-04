@@ -124,3 +124,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000'
 ]
+CSRF_TRUSTED_ORIGINS = [
+    "https://FromVovik.sytes.net",
+    "http://localhost:8000",          # Для локальной разработки
+    "http://127.0.0.1:8000",
+]
